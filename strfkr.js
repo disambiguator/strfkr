@@ -1,5 +1,3 @@
-const colors = ['#1abc9c', '#2ecc71', '#3498db', '#9b59b6', '#34495e']
-
 const scale = 15
 
 function setup() {
@@ -30,5 +28,9 @@ function draw() {
 }
 
 function randomColor() {
-    return _.sample(colors)
+	r = random(255)
+        g = random(255)
+        b = random(255)
+
+	return color(r,g,b)
 }
