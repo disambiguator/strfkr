@@ -1,6 +1,6 @@
 const colors = ['#1abc9c', '#2ecc71', '#3498db', '#9b59b6', '#34495e']
 
-const scale = 10
+const scale = 15
 
 function setup() {
     createCanvas(windowWidth, windowHeight)
