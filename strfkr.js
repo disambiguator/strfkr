@@ -8,7 +8,8 @@ function setup() {
 }
 
 function draw() {
-    numTriangles = windowHeight/scale
+    const numTriangles = windowHeight/scale
+
     for(var i=0; i<numTriangles; i++) {
         fill(randomColor())
          	triangle(
@@ -16,8 +17,7 @@ function draw() {
 			windowWidth/2, i*scale,
 			windowWidth/2, i*scale + scale
 		)
-    }
-    for(var i=0; i<numTriangles; i++) {
+
         fill(randomColor())
          	triangle(
 			windowWidth/2, i*scale,
